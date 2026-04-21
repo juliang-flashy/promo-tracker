@@ -68,6 +68,21 @@ Para pedir ideas de campañas para Flashy:
 
 ---
 
+## Contexto de marca Flashy
+
+La carpeta `context/` contiene el ADN de Flashy — Claude la lee para generar recomendaciones en el tono correcto:
+
+| Archivo | Contenido |
+|---------|-----------|
+| `context/brand_style.md` | Voz de marca, tono, emojis, vocabulario, estructura de emails |
+| `context/top_emails.md` | Top 15 campañas por OR, CTR y pedidos (fuente: Klaviyo) |
+| `context/top_campaigns.json` | Datos raw de las mejores campañas |
+| `context/campaigns_list.json` | Listado completo de campañas recientes |
+
+**Para pedir ideas de campaña:** dile a Claude "dame ideas de campañas para Flashy" y usará estos archivos + los datos de la competencia para generar copys en el tono exacto de la marca.
+
+---
+
 ## Estructura del proyecto
 
 ```
@@ -75,6 +90,11 @@ promo-tracker/
 ├── .claude/
 │   └── commands/
 │       └── scrapebrands.md   ← skill que activa el análisis completo
+├── context/
+│   ├── brand_style.md        ← voz y tono de marca Flashy
+│   ├── top_emails.md         ← top 15 campañas históricas (Klaviyo)
+│   ├── top_campaigns.json    ← datos raw campañas exitosas
+│   └── campaigns_list.json   ← listado campañas recientes
 ├── scraper/
 │   ├── scrape_raw.py         ← toma screenshots con Playwright (sin API)
 │   ├── agent.py              ← versión alternativa con Anthropic API
