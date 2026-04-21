@@ -1,0 +1,1095 @@
+{
+  "brands": [
+    {
+      "name": "Zara",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.zara.com/es/en/sale-mww.html",
+        "instagram": "https://www.instagram.com/zara/"
+      },
+      "selectors": {
+        "banner": ".hero-banner, .main-banner, [class*='banner']",
+        "promo": "[class*='sale'], [class*='promo'], [class*='discount']"
+      }
+    },
+    {
+      "name": "Mango",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://shop.mango.com/us/en/c/sale_f93f3e8b",
+        "instagram": "https://www.instagram.com/mango/"
+      },
+      "selectors": {
+        "banner": ".hero, .banner",
+        "promo": "[class*='sale'], [class*='offer']"
+      }
+    },
+    {
+      "name": "Revolve",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.revolve.com/",
+        "instagram": "https://www.instagram.com/revolve/"
+      },
+      "selectors": {
+        "banner": ".hero-banner",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "ASOS",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.asos.com/",
+        "instagram": "https://www.instagram.com/asos/"
+      },
+      "selectors": {
+        "banner": "[class*='hero']",
+        "promo": "[class*='sale'], [class*='promo']"
+      }
+    },
+    {
+      "name": "Shopbop",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.shopbop.com/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Commense",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://thecommense.com/",
+        "instagram": "https://www.instagram.com/commense_official/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Dissh",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://dissh.com/",
+        "instagram": "https://www.instagram.com/dissh/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Meshki",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://meshki.com.au/collections/sale",
+        "instagram": "https://www.instagram.com/meshki/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Na-Kd",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.na-kd.com/en/sale",
+        "instagram": "https://www.instagram.com/nakd/"
+      },
+      "selectors": {
+        "banner": "[class*='hero']",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Loavies",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.loavies.com/en/sale",
+        "instagram": "https://www.instagram.com/loavies/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Gina Tricot",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.ginatricot.com/int/sale",
+        "instagram": "https://www.instagram.com/ginatricot/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Oh Polly",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.ohpolly.com/collections/sale",
+        "instagram": "https://www.instagram.com/ohpolly/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Verge Girl",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://vergegirl.com/collections/sale",
+        "instagram": "https://www.instagram.com/vergegirl/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Princess Polly",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://us.princesspolly.com/collections/sale",
+        "instagram": "https://www.instagram.com/princesspolly/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Micas",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://shopmicas.com/collections/sale",
+        "instagram": "https://www.instagram.com/shopmi.cas/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Peppermayo",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://peppermayo.com/",
+        "instagram": "https://www.instagram.com/peppermayo/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Beginning Boutique",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.beginningboutique.com.au/",
+        "instagram": "https://www.instagram.com/beginningboutique/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Babyboo Fashion",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.babyboofashion.com/",
+        "instagram": "https://www.instagram.com/babyboofashion/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Edikted",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://edikted.co.uk/",
+        "instagram": "https://www.instagram.com/edikted/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Hello Molly",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.hellomolly.com/",
+        "instagram": "https://www.instagram.com/hellomolly/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Miss Lola",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.misslola.com/",
+        "instagram": "https://www.instagram.com/misslola/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Maurie and Eve",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.maurieandeve.com/",
+        "instagram": "https://www.instagram.com/maurieandeve/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Lioness",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://lionessfashion.com/",
+        "instagram": "https://www.instagram.com/lionessfashion/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Tigermist",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://au.tigermist.com/",
+        "instagram": "https://www.instagram.com/tigermist/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "White Fox Boutique",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://whitefoxboutique.com/",
+        "instagram": "https://www.instagram.com/whitefoxboutique/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Odd Muse",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://oddmuse.co.uk/",
+        "instagram": "https://www.instagram.com/oddmuse/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale'], [class*='new']"
+      }
+    },
+    {
+      "name": "Glassons",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.glassons.com/",
+        "instagram": "https://www.instagram.com/glassons/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Cider",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://shopcider.com/c/sale",
+        "instagram": "https://www.instagram.com/cider/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Fortunate One",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.fortunateone.com/collections/sale",
+        "instagram": "https://www.instagram.com/fortunate_one/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Runaway the Label",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://runawaythelabel.com/collections/sale",
+        "instagram": "https://www.instagram.com/runawaythelabel/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Sporty and Rich",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://sportyandrich.com/collections/sale",
+        "instagram": "https://www.instagram.com/sportyandrich/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Reformation",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.thereformation.com/sale",
+        "instagram": "https://www.instagram.com/thereformation/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Sandro",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://us.sandro-paris.com/en/sale/",
+        "instagram": "https://www.instagram.com/sandroparis/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Maje",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://us.maje.com/en/sale/",
+        "instagram": "https://www.instagram.com/majeparis/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Aritzia",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.aritzia.com/us/en/sale",
+        "instagram": "https://www.instagram.com/aritzia/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Sezane",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.sezane.com/en/category/new",
+        "instagram": "https://www.instagram.com/sezane/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new'], [class*='sale']"
+      }
+    },
+    {
+      "name": "& Other Stories",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.stories.com/en/sale/",
+        "instagram": "https://www.instagram.com/andotherstories/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "House of Sunny",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://houseofsunny.co.uk/collections/sale",
+        "instagram": "https://www.instagram.com/houseofsunny/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Ba&sh",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://ba-sh.com/us/sale/",
+        "instagram": "https://www.instagram.com/ba_sh/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Djerf Avenue",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://djerfavenue.com/",
+        "instagram": "https://www.instagram.com/djerfavenue/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new'], [class*='sale']"
+      }
+    },
+    {
+      "name": "Anine Bing",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.aninebing.com/",
+        "instagram": "https://www.instagram.com/aninebing/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "LoveShackFancy",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.loveshackfancy.com/",
+        "instagram": "https://www.instagram.com/loveshackfancy/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Faithfull the Brand",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://faithfullthebrand.com/",
+        "instagram": "https://www.instagram.com/faithfullthebrand/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Topshop",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.topshop.com/",
+        "instagram": "https://www.instagram.com/topshop/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Abercrombie",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.abercrombie.com/",
+        "instagram": "https://www.instagram.com/abercrombie/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Hollister",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.hollisterco.com/",
+        "instagram": "https://www.instagram.com/hollisterco/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Urban Outfitters",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.urbanoutfitters.com/",
+        "instagram": "https://www.instagram.com/urbanoutfitters/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Madewell",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.madewell.com/",
+        "instagram": "https://www.instagram.com/madewell/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "J.Crew",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.jcrew.com/",
+        "instagram": "https://www.instagram.com/jcrew/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "American Eagle",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.ae.com.co/",
+        "instagram": "https://www.instagram.com/americaneagle/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Gap",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.gap.com/",
+        "instagram": "https://www.instagram.com/gap/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Free People",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.freepeople.com/sale/",
+        "instagram": "https://www.instagram.com/freepeople/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Showpo",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.showpo.com/sale/",
+        "instagram": "https://www.instagram.com/showpo/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Nude Project",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://nudeproject.com/collections/sale",
+        "instagram": "https://www.instagram.com/nudeproject_/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Wrstbhvr",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://wrstbhvr.com/collections/sale",
+        "instagram": "https://www.instagram.com/wrstbhvr/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Demodé",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://demodemode.com/collections/all",
+        "instagram": "https://www.instagram.com/demodemode_/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Dairy Boy",
+      "region": "internacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://dairyboy.com/collections/all",
+        "instagram": "https://www.instagram.com/dairyboystore/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Rhode",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://rhodeskin.com/collections/all",
+        "instagram": "https://www.instagram.com/rhode/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new'], [class*='launch']"
+      }
+    },
+    {
+      "name": "Gisou",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://gisou.com/collections/all",
+        "instagram": "https://www.instagram.com/gisou/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Summer Fridays",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://www.summerfridays.com/collections/all",
+        "instagram": "https://www.instagram.com/summerfridays/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Khloud",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://khloudfoods.com/",
+        "instagram": "https://www.instagram.com/khloudfoods/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Lemme",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://lemmelive.com/collections/shop-all",
+        "instagram": "https://www.instagram.com/lemme/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Medicube",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://www.medipiel.com.co/",
+        "instagram": "https://www.instagram.com/medicube_global/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale'], [class*='new']"
+      }
+    },
+    {
+      "name": "Poppi",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://drinkpoppi.com/collections/all",
+        "instagram": "https://www.instagram.com/drinkpoppi/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "e.l.f. Cosmetics",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://www.elfcosmetics.com/sale/",
+        "instagram": "https://www.instagram.com/elfcosmetics/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Kosas",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://kosas.com/collections/sale",
+        "instagram": "https://www.instagram.com/kosas/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Touchland",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://touchland.com/collections/all",
+        "instagram": "https://www.instagram.com/touchland/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Byoma",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://byoma.com/collections/all",
+        "instagram": "https://www.instagram.com/byoma/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Rare Beauty",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://www.rarebeauty.com/collections/sale",
+        "instagram": "https://www.instagram.com/rarebeauty/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale'], [class*='new']"
+      }
+    },
+    {
+      "name": "Daise",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://daise.com/collections/all",
+        "instagram": "https://www.instagram.com/daise/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Glowery",
+      "region": "internacional",
+      "category": "belleza",
+      "urls": {
+        "web": "https://helloglowery.com/collections/all",
+        "instagram": "https://www.instagram.com/helloglowery/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='new']"
+      }
+    },
+    {
+      "name": "Koaj",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.koaj.co/",
+        "instagram": "https://www.instagram.com/koaj/"
+      },
+      "selectors": {
+        "banner": ".hero, .banner",
+        "promo": "[class*='sale'], [class*='promo']"
+      }
+    },
+    {
+      "name": "Tennis",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.tennis.com.co/",
+        "instagram": "https://www.instagram.com/tenniscol/"
+      },
+      "selectors": {
+        "banner": ".hero, .banner",
+        "promo": "[class*='sale'], [class*='promo']"
+      }
+    },
+    {
+      "name": "Color Blue",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.colorblue.com/",
+        "instagram": "https://www.instagram.com/colorblueco/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Nafnaf",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.nafnaf.com.co/",
+        "instagram": "https://www.instagram.com/nafnafcolombia/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Karibik",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://karibik.co/",
+        "instagram": "https://www.instagram.com/karibikoficial/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Strada Brand",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://stradabrand.co/collections/all",
+        "instagram": "https://www.instagram.com/strada_brand/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Navissi",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://navissi.com/",
+        "instagram": "https://www.instagram.com/navissi/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Ela",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.ela.com.co/",
+        "instagram": "https://www.instagram.com/elacolombia/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Mattelsa",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.mattelsa.net/",
+        "instagram": "https://www.instagram.com/mattelsa/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale'], [class*='new']"
+      }
+    },
+    {
+      "name": "Seven Seven",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.sevenseven.com/ropa-en-descuento",
+        "instagram": "https://www.instagram.com/sevenseven/"
+      },
+      "selectors": {
+        "banner": ".hero, .banner",
+        "promo": "[class*='sale'], [class*='promo']"
+      }
+    },
+    {
+      "name": "Gef",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.gef.co/",
+        "instagram": "https://www.instagram.com/gefcolombia/"
+      },
+      "selectors": {
+        "banner": ".hero, .banner",
+        "promo": "[class*='sale'], [class*='promo']"
+      }
+    },
+    {
+      "name": "True",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://trueshop.co/",
+        "instagram": "https://www.instagram.com/truecolombia/"
+      },
+      "selectors": {
+        "banner": ".hero",
+        "promo": "[class*='sale']"
+      }
+    },
+    {
+      "name": "Flashy",
+      "region": "nacional",
+      "category": "moda",
+      "urls": {
+        "web": "https://www.flashy.com.co/",
+        "instagram": "https://www.instagram.com/flashycol/"
+      },
+      "selectors": {
+        "banner": "[class*='banner'], [class*='promo'], [class*='hero']",
+        "promo": "[class*='rebaja'], [class*='off'], [class*='descuento'], [class*='sale']"
+      }
+    }
+  ]
+}

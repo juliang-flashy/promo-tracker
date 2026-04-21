@@ -1,0 +1,18 @@
+# Datos generados localmente
+data/
+screenshots/
+
+# Ambientes Python
+venv/
+env/
+.env
+*.pyc
+__pycache__/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Resultados de pruebas temporales
+test_resultado.json
+resultado_todas.json
